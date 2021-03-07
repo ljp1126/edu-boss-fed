@@ -44,6 +44,7 @@ export default Vue.extend({
       const { data } = await getUserInfo();
       this.userInfo = data.content;
       console.log("loadUserInfo");
+      console.log(data);
     },
 
     handleLogout() {
