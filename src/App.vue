@@ -6,4 +6,12 @@
   </div>
 </template>
 
+<script lant="ts">
+import Vue from "vue";
+
+export default Vue.extend({
+  name: "App"
+});
+</script>
+
 <style lang="scss" scoped></style>
